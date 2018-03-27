@@ -1,0 +1,10 @@
+
+build with maven:
+
+> mvn clean package
+
+for endValue 30:
+> java -cp target/jan-challenges-1.0.jar com.widera.janchallenges.blatt01.MainEndNumber30
+
+for a loop from endValue 0 to 100:
+> java -cp target/jan-challenges-1.0.jar com.widera.janchallenges.blatt01.MainNumbersFrom0To100
