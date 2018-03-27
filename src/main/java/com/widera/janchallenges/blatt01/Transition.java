@@ -12,7 +12,7 @@ class Transition {
     }
 
     public long calc(long keyValue) {
-        return this.function.calc(keyValue);
+        return this.function.calculate(keyValue);
     }
 
     public State nextState() {
@@ -32,7 +32,7 @@ class Transition {
     }
 
     public interface Function {
-        long calc(long value);
+        long calculate(long value);
     }
 
 }
